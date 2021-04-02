@@ -25,17 +25,17 @@ class Perceptron{
 			} 
 			//saida do nosso perceptron
 			let output = sign(sum)
-				return output;	
+			return output;	
 		}	
 		//trainning
-		train(inputs, labels){
-			let guess = this.guess(inputs)
-			let error = labels - guess 
+		train(input, target){
+			let guess = this.guess(input)
+			let error = target - guess 
 
 			for(let i = 0; i< this.weigth.length; i++){
-				console.log("peso anterior: "+this.weigth[i])
-				this.weigth[i]+= error*inputs[i]*this.Lr;
-				console.log("peso mudado: " + this.weigth[i])
+				//correcting weigths
+				this.weigth[i]+= error*input[i];
 			} 
+					
 		}
 	}
