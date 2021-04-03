@@ -1,8 +1,18 @@
 class Data{
 	 constructor(){
-		 // -10 < x < 10 e -10 < y < 10
-		 this.x = (Math.random()<=0.5 ? -10 : 10)*Math.random()
-		 this.y = (Math.random()<=0.5 ? -10 : 10)*Math.random()
+		 // min < x < max e min < y < max
+		 const max=500,min=0
+		 this.x = Math.floor(Math.random() * (max - min + 1) ) + min;
+		 this.y = Math.floor(Math.random() * (max - min + 1) ) + min;
 		 this.label = (this.x > this.y) ? 1 : -1
+		 }
+		 show(){
+			 stroke(0)
+			 if(this.label==1){
+				 fill(255)
+			 }else{
+				 fill(0)
+			 }
+			 ellipse(this.x,this.y,8,8)
 		 }
 	 }
