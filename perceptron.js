@@ -9,7 +9,7 @@ class Perceptron{
 	constructor(){
 		// array de length 2 
 		this.weigth = new Array(2);
-		this.Lr = 0.01
+		this.lrnRate = 0.01 //the learning Rate
 
 		const max=1, min=-1
 		// -1 < weigth < 1
@@ -34,8 +34,7 @@ class Perceptron{
 
 			for(let i = 0; i< this.weigth.length; i++){
 				//correcting weigths
-				this.weigth[i]+= this.Lr*error*(input[i]);
-			} 
-					
+				this.weigth[i]+= error*input[i]*this.lrnRate;
+			} 				
 		}
 	}
