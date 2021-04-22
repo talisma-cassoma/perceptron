@@ -44,6 +44,6 @@ line(0,0, width, height)
 			fill(255, 0, 0)//red color
 	 }
 	noStroke()
-	ellipse(data[i].x, data[i].y, 4, 4)
+	ellipse(data[i].x, data[i].y, 5, 5)
 	}
 }

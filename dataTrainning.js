@@ -5,7 +5,7 @@ function getRndInteger(min, max) {
 class Data{
 	 constructor(){
 		 // min < x < max e min < y < max
-		 const max=500,min=0
+		 const max=400,min=0
 		 
 		 this.x = getRndInteger(min, max)
 		 this.y = getRndInteger(min, max)
@@ -19,6 +19,6 @@ class Data{
 			 }else{
 				 fill(0)
 			 }
-			 ellipse(this.x,this.y,8,8)
+			 ellipse(this.x,this.y,10,10)
 		 }
 	 }
