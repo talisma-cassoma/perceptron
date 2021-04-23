@@ -2,7 +2,7 @@
 
 //rotulo da nossa saida -1 ou 1
 function sign(n){
-			return (n >= 0) ? -1 : 1;
+			return (n >= 0) ? 1 : -1;
 		}
 class Perceptron{
 	

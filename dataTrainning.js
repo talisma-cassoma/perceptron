@@ -1,14 +1,11 @@
-function getRndInteger(min, max) {
-  return Math.floor(Math.random() * (max - min + 1) ) + min;
-}
 
 class Data{
 	 constructor(){
 		 // min < x < max e min < y < max
 		 const max=400,min=0
 		 
-		 this.x = getRndInteger(min, max)
-		 this.y = getRndInteger(min, max)
+		 this.x = random( min, max)
+		 this.y = random( min, max)
 		 this.label = (this.x > this.y) ? 1 : -1
 		 
 		 }
