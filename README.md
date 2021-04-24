@@ -9,7 +9,7 @@ the code here do a **guess** for each input point **where they belong, if it's z
 <img src="images/planxy.png">
 
 
-int the next image i deseable the neural network, the percepton, make a guess without train:
+int the next image i deseable train...the neural network(the percepton) make a guess without train:
 
 you see how wrong he can predict with no ajustement:
 
