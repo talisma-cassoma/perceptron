@@ -2,7 +2,7 @@
 
 using js i made a single layer perceptron.  a perceptron is also the most simple neural network model there is 
 
-the code here do a **guess** for each input point **where they belong, if it's zone A or zone B** and then if the prediction is rigth then the point gets colerd green if not the point  gets colored red, as you can in the next images.
+the code here do a **guess** for each input point **where they belong, if it's zone A or zone B** and then if the prediction is rigth then the point gets colerd green if not the point  gets colored red.
 
 * the tows zones are separeted by a line as you can see :
 <p align="center">
