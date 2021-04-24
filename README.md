@@ -21,6 +21,6 @@ but here i anable the train, and our preception shows much more able to predict 
 
 
 
-🤩special thanks for "the coding train" for their marvelous neural network playlist❤️
+🤩special thanks for "the coding train" for their marvelous neural network playlist on youtube
 
 
