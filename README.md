@@ -2,7 +2,7 @@
 
 using js i made a single layer perceptron.  a perceptron is also the most simple neural network model there is 
 
-the code here do a **guess** for each input point **belongs to zone A or B** and then if the prediction is rigth then the point gets colerd as green if not the point  gets colored red.
+the code here do a **guess** for each input point **where they belong, if it's zone A or zone B** and then if the prediction is rigth then the point gets colerd as green if not the point  gets colored red.
 
 the tows zones are separeted by a line as you can see 
 
@@ -19,8 +19,6 @@ you see how wrong he can predict with no ajustement:
 but here i anable the train, and our preception shows much more able to predict the rigth guess, but still make a few errors
 
 <img src="images/with-train.png">
-
-what it does 
 
 
 * to visualize the data i used P5js a js library that uses canvas for draw in html,
