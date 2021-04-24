@@ -17,6 +17,9 @@ but here i anable the train, and our preception shows much more able to predict 
 
 <img src="images/with-train.png">
 
+
+<img src="images/planxy.png">
+
 * to visualize the data i used P5js a js library that uses canvas for draw in html,
 
 
