@@ -2,7 +2,7 @@
 
 using js i made a single layer perceptron.  a perceptron is also the most simple neural network model there is 
 
-the code here do a guess for each input point if its X coordinate is greater than its Y coordinate and then if the prediction is rigth then the point gets colerd as green if not the point  gets colored red.
+the code here do a **guess** for each input point **if its X coordinate is greater than its Y coordinate*** and then if the prediction is rigth then the point gets colerd as green if not the point  gets colored red.
 
 
 
