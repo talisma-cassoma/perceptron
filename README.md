@@ -2,7 +2,7 @@
 
 using js i made a single layer perceptron.  a perceptron is also the most simple neural network model there is 
 
-the code do a guess if the inputs coordonees are above or below the diagonal (line) if the prediction is rigth then the point gets colerd as green if not the point  gets colored red.
+the code here do a guess if the inputs coordonees are above or below the diagonal (line) if the prediction is rigth then the point gets colerd as green if not the point  gets colored red.
 
 in this first image i deseable the neural network, the percepton, make a guess without train:
 
