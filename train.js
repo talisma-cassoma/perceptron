@@ -2,7 +2,7 @@
 //criar os dados de treinamento
 let data = new Array(100)// numero de dados a treinar 
 
-//obejt Perceptron
+//obejto Perceptron
 let p = new Perceptron
 
 let getLabel = []
