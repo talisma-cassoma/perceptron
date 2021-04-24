@@ -13,7 +13,7 @@ you see how wrong he can predict with no ajustement:
 <img src="images/without-train.png">
 
 
-but here i anable the train, and our preception shows much more able to predict the rigth guess, but not a 100% sure  
+but here i anable the train, and our preception shows much more able to predict the rigth guess, but still make a few errors
 
 <img src="images/with-train.png">
 
