@@ -5,7 +5,7 @@ using js i made a single layer perceptron.  a perceptron is also the most simple
 the code here do a **guess** for each input point **where they belong, if it's zone A or zone B** and then if the prediction is rigth then the point gets colerd as green if not the point  gets colored red.
 
 * the tows zones are separeted by a line as you can see :
-<p align="left">
+<p align="right">
 <img src="images/planxy.png" >
 </p>
 
