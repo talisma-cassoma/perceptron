@@ -15,4 +15,8 @@ but here i anable the train, and our preception shows much more able to predict 
 
 <img src="images/with-train.png">
 
+to visualize the data a use P5js a js library that uses canvas for draw in html,
+
+special thanks for "the coding train" for their marvelous neural network playlist
+
 
