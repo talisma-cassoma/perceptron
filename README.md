@@ -1,6 +1,6 @@
 # single layer perceptron 
 
-using js i trained a single layer perceptron.  a perceptron is also the most simple neural network model there is 
+using js i made (and i trained) a single layer perceptron.  a perceptron is also the most simple neural network model there is 
 
 the code here do a **guess** for each input point **where they belong, if it's zone A or zone B** and then if the prediction is rigth then the point gets colerd green 🟢 if not the point  gets colored red 🔴.
 
