@@ -1,6 +1,6 @@
 /*perceba perceptron como um problema de classificacao em regressao linear*/
 
-//rotulo da nossa saida -1 ou 1
+//rotulo da nossa saida -1 ou 1 : Heaviside step function 
 function sign(n){
 			return (n >= 0) ? 1 : -1;
 		}
@@ -17,7 +17,7 @@ class Perceptron{
 			this.weigth[i]= ((Math.random()<=0.5)? -1 : 1)*Math.random()
 		}
 	}
-   //funcao que advinha 
+   //funcao que advinha: feedforward function
 		guess(inputs){
 			let sum = 0
 			for(let i = 0; i< this.weigth.length; i++){
@@ -27,7 +27,7 @@ class Perceptron{
 			let output = sign(sum)
 			return output;	
 		}	
-		//trainning
+		//trainning: correction weigths function
 		train(input, target){
 			let guess = this.guess(input)
 			let error = target - guess 
