@@ -17,7 +17,7 @@ class Perceptron{
 			this.weigth[i]= ((Math.random()<=0.5)? -1 : 1)*Math.random()
 		}
 	}
-   //funcao que advinha: feedforward function
+   		//funcao que advinha: feedforward function
 		guess(inputs){
 			let sum = 0
 			for(let i = 0; i< this.weigth.length; i++){
