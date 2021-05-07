@@ -27,7 +27,7 @@ class Perceptron{
 			let output = sign(sum)
 			return output;	
 		}	
-		//trainning: correction weigths function
+		//trainning: correcting weigths function
 		train(input, target){
 			let guess = this.guess(input)
 			let error = target - guess 
