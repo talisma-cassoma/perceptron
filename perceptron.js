@@ -17,16 +17,6 @@ class Perceptron{
 			this.weigth[i]= ((Math.random()<=0.5)? -1 : 1)*Math.random()
 		}
 	}
-   		//funcao que advinha: feedforward function
-		guess(inputs){
-			let sum = 0
-			for(let i = 0; i< this.weigth.length; i++){
-				sum += this.weigth[i]*inputs[i]
-			} 
-			//saida do nosso perceptron
-			let output = sign(sum)
-			return output;	
-		}	
 		//trainning: correcting weigths function
 		train(input, target){
 			let guess = this.guess(input)
@@ -37,4 +27,14 @@ class Perceptron{
 				this.weigth[i]+= error*input[i]*this.lrnRate;
 			} 				
 		}
+   		//funcao que advinha: feedforward function
+		guess(inputs){
+			let sum = 0
+			for(let i = 0; i< this.weigth.length; i++){
+				sum += this.weigth[i]*inputs[i]
+			} 
+			//saida do nosso perceptron
+			let output = sign(sum)
+			return output;	
+		}	
 	}
