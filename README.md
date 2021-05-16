@@ -23,6 +23,11 @@ but here i anable the train, and our preception shows much more able to predict 
 
 * to visualize the data i used P5js a js library that uses canvas for draw in html,
 
+# whats problems can a perceptron can solve 
+
+a simple perceptron can only solve linearly separable problems
+
+* How to know whether the data is linearly separable?
 
 
 🤩special thanks for "the coding train" for their marvelous neural network playlist on youtube
