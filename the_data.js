@@ -1,4 +1,4 @@
-
+//train dataset
 class Data{
 	 constructor(){
 		 // min < x < max e min < y < max

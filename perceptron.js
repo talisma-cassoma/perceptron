@@ -17,8 +17,18 @@ class Perceptron{
 			this.weigth[i]= ((Math.random()<=0.5)? -1 : 1)*Math.random()
 		}
 	}
+			//trainning
+		train(input, target){
+			let guess = this.feedforward(input)
+			let error = target - guess 
+
+			for(let i = 0; i< this.weigth.length; i++){
+				//correcting weigths
+				this.weigth[i]+= error*input[i]*this.lrnRate;
+			} 				
+		}
    //funcao que advinha 
-		guess(inputs){
+		feedforward(inputs){
 			let sum = 0
 			for(let i = 0; i< this.weigth.length; i++){
 				sum += this.weigth[i]*inputs[i]
@@ -27,14 +37,4 @@ class Perceptron{
 			let output = sign(sum)
 			return output;	
 		}	
-		//trainning
-		train(input, target){
-			let guess = this.guess(input)
-			let error = target - guess 
-
-			for(let i = 0; i< this.weigth.length; i++){
-				//correcting weigths
-				this.weigth[i]+= error*input[i]*this.lrnRate;
-			} 				
-		}
 	}
