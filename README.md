@@ -23,7 +23,7 @@ but here i anable the train, and our preception shows much more able to predict 
 
 * to visualize the data i used P5js a js library that uses canvas for draw in html,
 
-# what problems can a perceptron can solve?
+# what problems can a single perceptron can solve?
 
 a simple perceptron can only solve linearly separable problems
 
