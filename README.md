@@ -33,7 +33,7 @@ usually we can just visualise the data if its a 1, 2 or enven 3 dimention data a
 
 # teaching perceptron solving logic gate
 
-<img src="images/OR_GATE.png">
+<img src="images/NAND GATE.png">
 <img src="images/OR GATE.png">
 
 
