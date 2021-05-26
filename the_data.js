@@ -6,7 +6,7 @@ class Data{
 		 
 		 this.x = random( min, max)
 		 this.y = random( min, max)
-		 this.label = (this.x > this.y) ? 1 : -1
+		 this.label = (this.x > this.y) ? 1 : 0//-1
 		 
 		 }
 		 show(){

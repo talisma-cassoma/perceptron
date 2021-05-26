@@ -19,8 +19,8 @@ let getGuess = []
 		let input= []
  		input= [data[i].x, data[i].y]
 		//treino
-		p.train(input, data[i].label)
-		getGuess[i]=p.feedforward(input)
+		p.train(input, data[i].label) //we have many data no need to train by epochs
+		getGuess[i]=p.guess(input)
 		getLabel[i]=data[i].label
 	}
 }
