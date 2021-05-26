@@ -1,6 +1,6 @@
 
 //criar os dados de treinamento
-let data = new Array(100)// numero de dados a treinar 
+let data = new Array(200)// numero de dados a treinar 
 
 //obejto Perceptron
 let p = new Perceptron
@@ -19,7 +19,7 @@ let getGuess = []
 		let input= []
  		input= [data[i].x, data[i].y]
 		//treino
-		p.train(input, data[i].label)
+		p.train(input, data[i].label) //we have many data no need to train by epochs
 		getGuess[i]=p.guess(input)
 		getLabel[i]=data[i].label
 	}
