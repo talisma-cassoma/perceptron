@@ -28,11 +28,11 @@ class Perceptron{
 				this.weigth[i]+= error*input[i]*this.lrnRate;
 				}
 		}
-   //guess method 
+   		//guess method 
 		guess(inputs){// feedforward
 			let sum = 0
 			for(let i = 0; i< this.weigth.length; i++){
-				//the weigred sum
+				//the weigted sum
 				sum += this.weigth[i]*inputs[i]
 			}	 
 			sum+= this.bias // Σwx + bias 
