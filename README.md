@@ -17,7 +17,8 @@ class Perceptron{
 		// array de length 2 
 		this.weigth = new Array(2);
 		this.lrnRate = 0.01 // learning Rate
-		this.bias=0 //the bias help us to determinate our output when input are only zeros
+		this.bias=0 /*the bias help us to determinate our output when 
+		input are only zeros*/
 		this.epoch 
 		this.maxEpochs=800
 
