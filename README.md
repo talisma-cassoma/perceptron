@@ -71,8 +71,6 @@ class Perceptron{
 ```
 
 
-* to visualize the data i used P5js a js library that uses canvas for draw in html,
-
 # what problems can a single perceptron can solve?
 
 a simple perceptron can only solve linearly separable problems
@@ -83,6 +81,36 @@ usually we can just visualise the data if its a 1, 2 or enven 3 dimention data a
 //really not worth it cause single layer percetron also becomes an unviable (bad) model 
 //when there is a the data has too much params(ex data(x, y, z, k)) 
 
+#somes example using this perceptron model
+```js
+//		           === examples with logic gates	===
+//
+let dataset = [	[0,0],
+		[0,1], 
+		[1,0],
+		[1,1]]
+//or gate
+let OR = new Perceptron()
+OR.bias=0, OR.lrnRate= 0.5
+OR.trainning( dataset, [0,1,1,1])// 80 epochs nedded
+```
+end gate 
+```js
+let AND= new Perceptron()
+OR.trainning( dataset, [0,1,1,1])// 80 epochs nedded
+AND.bias = -1
+AND.lrnRate = 0.05 
+AND.trainning( dataset, [0,0,0,1]) // 400 epochs nedded
+```
+nand gate  
+
+```js
+let NAND = new Perceptron()
+NAND.bias = 1, NAND.lrnRate= 0.5
+NAND.trainning( dataset, [1,1,1,0]) 
+```
+
+test for yourself <a href="https://singlelayerperceptron.talismamanuel.repl.co">here</a>
 
 🤩 special thanks for "the coding train" for their marvelous neural network playlist on youtube
 
