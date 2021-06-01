@@ -81,7 +81,7 @@ usually we can just visualise the data if its a 1, 2 or enven 3 dimention data a
 //really not worth it cause single layer percetron also becomes an unviable (bad) model 
 //when there is a the data has too much params(ex data(x, y, z, k)) 
 
-#somes example using this perceptron model
+# somes example using this perceptron model
 ```js
 //		           === examples with logic gates	===
 //
