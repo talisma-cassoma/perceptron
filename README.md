@@ -4,8 +4,7 @@ using js i made (and i trained) a single layer perceptron.  a perceptron is also
 i'm studing machine learning and deep learning and for better understending concepts and algorithms i'm writing those algoritms in javascript and i admit having fun with it😅
 ```js
 
-/*				=== THE MODEL	===
-perceba perceptron como um problema de classificacao em regressao linear*/
+//				=== THE MODEL	===
 
 //the labels of our output is 0 or 1
 function sign(n){
