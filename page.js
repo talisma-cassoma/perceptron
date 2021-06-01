@@ -115,21 +115,27 @@ function animate(){
 						y=AND.guess([parseInt(x1),parseInt(x2)])
 						//help text
 						form.helpText.innerText= `some help for you :
-			bias = -1 learning Rate = 0.05, 400 epochs nedded train`
+			bias = -1 learning Rate = 0.05, 400 epochs nedded train
+			w1=${AND.weigth[0]} 
+			w2=${AND.weigth[1]}`
 			break;
 			case "    OR":
 						bias_=OR.bias
 						y=OR.guess([parseInt(x1),parseInt(x2)])
 						//help text
 						form.helpText.innerText= `some help for you :
-			bias=0, learning Rate = 0.5 , 80 epochs nedded for train`
+			bias=0, learning Rate = 0.5 , 80 epochs nedded for train
+			w1=${OR.weigth[0]} 
+			w2=${OR.weigth[1]}`
 			break;
 			case " NAND":
 						bias_=NAND.bias
 						y=NAND.guess([parseInt(x1),parseInt(x2)])
 						//help text
 						form.helpText.innerText= `some help for you :
-			bias = 1, learning Rate = 0.5, 400 epochs nedded train`
+			bias = 1, learning Rate = 0.5, 400 epochs nedded train
+			w1=${NAND.weigth[0]} 
+			w2=${NAND.weigth[1]}`
 		}
 	}
 	//animation request
