@@ -1,7 +1,7 @@
 # single layer perceptron 
 
 using js i made (and i trained) a single layer perceptron.  a perceptron is also the most simple neural network model there is 
-i'm studing machine learning and deep learning and for better understending concepts and algorithms i'm writing those algoritms in javascript and i admit having fun with it
+i'm studing machine learning and deep learning and for better understending concepts and algorithms i'm writing those algoritms in javascript and i admit having fun with it😅
 ```js
 
 /*				=== THE MODEL	===
