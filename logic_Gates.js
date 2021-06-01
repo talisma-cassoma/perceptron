@@ -1,5 +1,6 @@
-/*/examples with logic gates
-let dataset = [	[0,0],
+//							=== examples with logic gates	===
+//
+let dataset = [		[0,0],
 									[0,1], 
 									[1,0],
 									[1,1]]
@@ -17,5 +18,5 @@ AND.trainning( dataset, [0,0,0,1]) // 400 epochs nedded
 //nand gate  
 let NAND = new Perceptron()
 NAND.bias = 1, NAND.lrnRate= 0.5
-NAND.trainning( dataset, [1,1,1,0]) /*/  
+NAND.trainning( dataset, [1,1,1,0])   
 

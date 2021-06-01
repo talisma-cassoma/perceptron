@@ -1,4 +1,6 @@
-/*perceba perceptron como um problema de classificacao em regressao linear*/
+
+/*												=== THE MODEL	===
+perceba perceptron como um problema de classificacao em regressao linear*/
 
 //the labels of our output is 0 or 1
 function sign(n){
@@ -12,6 +14,7 @@ class Perceptron{
 		this.lrnRate = 0.01 // learning Rate
 		this.bias=0 //the bias help us to determinate our output when input are only zeros
 		this.epoch 
+		this.maxEpochs=800
 
 		// -1 < weigth < 1
 		for(let i = 0; i< this.weigth.length; i++){	
@@ -51,9 +54,10 @@ class Perceptron{
 					output[i] = this.guess(data[i])
 				}
 				this.epoch++
-				if(this.epoch==400){ // I give max 400 epochs to converge else break the loop
+				if(this.epoch==this.maxEpochs){ // I give max 400 epochs to converge else break the loop
 					break;
 				}
 			}
 		}				
 }
+// 							by Talisma	:) enjoy it!

@@ -10,8 +10,8 @@ let getGuess = []
 //usando a bibiotecla p5js afixar cada dado sob forma de circulos 
  function setup(){
 	// um canvas 500x500
-  createCanvas(500, 500);
-
+   var myCanvas = createCanvas(600, 600);
+	myCanvas.parent("graphXY");//colocar  o canvas na div
 	//criando dados randomicamente
 	for(let i = 0; i< data.length; i++){
   	data[i]= new Data
@@ -26,14 +26,18 @@ let getGuess = []
 }
 function draw(){
 background(200);
+stroke(255)// cor branca para eixos xy
+line(0,height/2, width, height/2); //eixo x
+line(width/2,0, width/2, height); //eixo y
 //afixado os dados no plan 
 stroke(0)
+translate(width/2, height/2)// centrar o plano no centro do canvas
  for(let i = 0; i< data.length; i++){
 	 data[i].show()
 	}
 	//recta que o plano em dois triangulos
-line(0,0, width, height)
-
+stroke(255,5,0)
+line(-width/2, -height/2, width/2, height/2)// recta y=ax+b
 //com o treinamento			
  for(let i = 0; i< data.length; i++){
 		

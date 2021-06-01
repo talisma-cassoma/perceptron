@@ -2,7 +2,7 @@
 class Data{
 	 constructor(){
 		 // min < x < max e min < y < max
-		 const max=400,min=0
+		 const max=200,min=-200
 		 
 		 this.x = random( min, max)
 		 this.y = random( min, max)
