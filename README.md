@@ -83,7 +83,7 @@ usually we can just visualise the data if its a 1, 2 or enven 3 dimention data a
 
 # somes example using this perceptron model
 ```js
-//		           === examples with logic gates	===
+//		           === examples with logic gates ===
 //
 let dataset = [	[0,0],
 		[0,1], 
