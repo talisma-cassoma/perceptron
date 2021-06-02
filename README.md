@@ -26,8 +26,8 @@ class Perceptron{
 			this.weigth[i]= ((Math.random()<=0.5)? -1 : 1)*Math.random()
 		}
 	}
-		//the train method 
-		train(input, target){
+	//the train method 
+	train(input, target){
 			
 			for(let i = 0; i< this.weigth.length; i++){
 			let guess = this.guess(input)
@@ -36,8 +36,8 @@ class Perceptron{
 				this.weigth[i]+= error*input[i]*this.lrnRate;
 				}
 		}
-    //guess method 
-		guess(inputs){// feedforward
+    	//guess method 
+	guess(inputs){// feedforward
 			let sum = 0
 			for(let i = 0; i< this.weigth.length; i++){
 				//the weigred sum
@@ -48,9 +48,9 @@ class Perceptron{
 			let output = sign(sum)
 			return output;	
 		}	
-		//trainnig our model by epochs 	
-		trainning(data, labels){//trainnig our model by epochs means  repeat 
-    //the train as many time we set to converge the wgths to desired ones	
+	//trainnig our model by epochs 	
+	trainning(data, labels){/*trainnig our model by epochs means  repeat 
+	the train as many time we set to converge the wgths to desired ones*/	
 			this.epoch=0
 			let output= new Array(data.length)
 			while(output!=labels){
@@ -59,8 +59,8 @@ class Perceptron{
 					this.train(data[i], labels[i])
 					output[i] = this.guess(data[i])
 				}
-				this.epoch++
-				if(this.epoch==this.maxEpochs){ // I give max 400 epochs 
+			this.epoch++
+		if(this.epoch==this.maxEpochs){ // I give max 400 epochs 
         //to converge else break the loop
 					break;
 				}
