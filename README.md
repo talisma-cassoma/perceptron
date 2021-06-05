@@ -108,6 +108,7 @@ let NAND = new Perceptron()
 NAND.bias = 1, NAND.lrnRate= 0.5
 NAND.trainning( dataset, [1,1,1,0]) 
 ```
+this is the python version :
 ```python
 import random
 from random import seed
