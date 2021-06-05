@@ -108,7 +108,48 @@ let NAND = new Perceptron()
 NAND.bias = 1, NAND.lrnRate= 0.5
 NAND.trainning( dataset, [1,1,1,0]) 
 ```
+```python
+import random
+from random import seed
+# seed random number generator
+seed(1)
 
+class perceptron:
+  
+  weigth =[]
+  size=0
+  lrnRate = 0.01
+  
+  #constructor
+  def __init__(self, Size):
+    self.size= Size
+    wgth  = [None]*self.size
+    self.weigth = wgth
+
+    for i in range(self.size): # initilizer les poids
+      self.weigth[i]= random.uniform(-1, 1)
+
+  #train    
+  def trainning(self, input, label):
+    Guess = self.guess(input)
+    error = label - Guess
+    
+    for i in range(self.size): # reinitilizer les poids
+      self.weigth[i]+= error*input[i]*self.lrnRate 
+   #guess 
+  def guess(self, input):
+    sum=0
+    for i in range(self.size): # 
+      sum += self.weigth[i]*input[i]
+
+    output= self.sign(sum) 
+    return output
+  
+  #sign
+  def sign(self, n):
+    return 1 if n>=0 else -1
+
+```
 test for yourself <a href="https://singlelayerperceptron.talismamanuel.repl.co">here</a>
 
 ![Capture d’écran 2021-06-01 à 23 39 40](https://user-images.githubusercontent.com/62837677/120398896-f4562700-c332-11eb-9e24-6cbf4e38eeb0.png)
