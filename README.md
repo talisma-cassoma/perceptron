@@ -112,7 +112,7 @@ this is the python version of this code on PERCEPTRON.ipynb:
 
 test for yourself <a href="https://singlelayerperceptron.talismamanuel.repl.co">here</a>
 
-![Capture d’écran 2021-06-01 à 23 39 40](https://user-images.githubusercontent.com/62837677/120398896-f4562700-c332-11eb-9e24-6cbf4e38eeb0.png)
+![Capture d’écran 20<a href="https://singlelayerperceptron.talismamanuel.repl.co">21-06-01 à 23 39 40](https://user-images.githubusercontent.com/62837677/120398896-f4562700-c332-11eb-9e24-6cbf4e38eeb0.png)</a>
 
 🤩 special thanks for "the coding train" for their marvelous neural network playlist on youtube
 
