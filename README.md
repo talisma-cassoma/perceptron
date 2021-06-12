@@ -69,6 +69,7 @@ class Perceptron{
 }
 //                                by Talisma	:) enjoy it!
 ```
+this is the python version of this code on <a href="https://github.com/talisma-cassoma/perceptron/blob/master/PERCEPTRON.ipynb">PERCEPTRON.ipynb</a>:
 
 
 # what problems can a single perceptron can solve?
@@ -108,7 +109,6 @@ let NAND = new Perceptron()
 NAND.bias = 1, NAND.lrnRate= 0.5
 NAND.trainning( dataset, [1,1,1,0]) 
 ```
-this is the python version of this code on PERCEPTRON.ipynb:
 
 test for yourself <a href="https://singlelayerperceptron.talismamanuel.repl.co">here</a>
 
