@@ -69,7 +69,7 @@ class Perceptron{
 }
 //                                by Talisma	:) enjoy it!
 ```
-this is the python version of this code on <a href="https://github.com/talisma-cassoma/perceptron/blob/master/PERCEPTRON.ipynb">PERCEPTRON.ipynb</a>:
+see the python version of this code on <a href="https://github.com/talisma-cassoma/perceptron/blob/master/PERCEPTRON.ipynb">PERCEPTRON.ipynb</a>
 
 
 # what problems can a single perceptron can solve?
