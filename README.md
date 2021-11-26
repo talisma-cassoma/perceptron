@@ -110,7 +110,7 @@ NAND.bias = 1, NAND.lrnRate= 0.5
 NAND.trainning( dataset, [1,1,1,0]) 
 ```
 
-test for yourself <a href="https://singlelayerperceptron.talismamanuel.repl.co">here</a>
+try it for yourself <a href="https://singlelayerperceptron.talismamanuel.repl.co">here</a>
 
 <a href="https://singlelayerperceptron.talismamanuel.repl.co">![Capture d’écran 2021-06-01 à 23 39 40](https://user-images.githubusercontent.com/62837677/120398896-f4562700-c332-11eb-9e24-6cbf4e38eeb0.png)</a>
 
